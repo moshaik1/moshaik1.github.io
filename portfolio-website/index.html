@@ -197,14 +197,37 @@
         <div class="post-wrapper">
           <div>
             <div class="post">
+              <img class="thumbnail" src="images/News-letter-pic.png" />
+              <div class="post-preview">
+                <h6 class="post-title">Newsletter Web App</h6>
+                <p class="post-intro">
+                  A simple Newsletter Web Application that collects information
+                  from the user, using NodeJS, ExpressJS routing, Mailchimp API,
+                  and a Heroku server.
+                </p>
+                <a
+                  class="visit-site-text"
+                  target="_blank"
+                  href="https://fierce-temple-44105.herokuapp.com/"
+                  >Visit Site</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="post">
               <img class="thumbnail" src="images/tindog-homepage.png" />
               <div class="post-preview">
                 <h6 class="post-title">Tindog Website</h6>
                 <p class="post-intro">
-                  My version of Tinder, but with dogs. Showcased my knowledge of
-                  basic HTML/CSS and Bootstrap.
+                  My simple mockup version of Tinder, but with dogs, using my
+                  knowledge of basic HTML/CSS, Bootstrap, and UI design trends.
                 </p>
-                <a class="visit-site-text" target="_blank" href="TinDog-file/index.html"
+                <a
+                  class="visit-site-text"
+                  target="_blank"
+                  href="TinDog-file/index.html"
                   >Visit Site</a
                 >
               </div>
@@ -217,8 +240,8 @@
               <div class="post-preview">
                 <h6 class="post-title">Simon Says</h6>
                 <p class="post-intro">
-                  A simple Simon-says game using JavaScript concepts and the
-                  JQuery Library.
+                  A simple Simon-says memory game using JavaScript concepts, and
+                  the JQuery Library.
                 </p>
                 <a
                   class="visit-site-text"
@@ -239,7 +262,9 @@
                 <p class="post-intro">
                   This is a sentence. Some more text here
                 </p>
-                <a class="visit-site-text" target="_blank" href="post.html">Visit Site</a>
+                <a class="visit-site-text" target="_blank" href="post.html"
+                  >Visit Site</a
+                >
               </div>
             </div>
           </div>
@@ -251,15 +276,25 @@
     <section class="s2">
       <div id="contact" class="main-container">
         <h3 style="text-align: center">Get In Touch</h3>
-        <form id="contact-form">
+        <form
+          id="contact-form"
+          action="https://formspree.io/f/xwkzqwwo"
+          method="POST"
+        >
           <label>Name</label>
-          <input class="input-field" type="text" name="name" />
+          <input
+            class="input-field"
+            type="text"
+            name="name"
+            required
+            autofocus
+          />
 
           <label>Subject</label>
-          <input class="input-field" type="text" name="subject" />
+          <input class="input-field" type="text" name="subject" required />
 
           <label>Email</label>
-          <input class="input-field" type="text" name="email" />
+          <input class="input-field" type="text" name="_replyto" required />
 
           <label>Message</label>
           <textarea class="input-field" name="message"> </textarea>
