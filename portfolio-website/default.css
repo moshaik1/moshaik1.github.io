@@ -396,7 +396,10 @@ border: 2px solid var(--borderColor);
 }
 
 
-
+.getInTouch-text{
+    text-align: center ;
+    margin-top: 8px;
+}
 
 #contact-form{
     display: block;
